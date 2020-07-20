@@ -13,7 +13,7 @@ setup:
 install:
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip setuptools wheel &&\
-		pip install --no-use-pep517 -r requirements.txt
+		pip install -r requirements.txt #--no-use-pep517 
 
 test:
 	# Additional, optional, tests could go here
