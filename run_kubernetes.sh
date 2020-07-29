@@ -16,5 +16,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/api  8000:80
-# kubectl expose deployment api --type=LoadBalancer --port=8000 --target-port=80
+# kubectl port-forward deployment/api  8000:80
+kubectl expose deployment api --type=LoadBalancer --port=8000 --target-port=80
