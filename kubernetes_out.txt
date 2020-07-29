@@ -1,0 +1,11 @@
+nathan@nathan-Box:~/Microservice$ ./run_kubernetes.sh 
+pod/api created
+NAME   READY   STATUS              RESTARTS   AGE
+api    0/1     ContainerCreating   0          0s
+nathan@nathan-Box:~/Microservice$ kubectl get pod
+NAME   READY   STATUS              RESTARTS   AGE
+api    0/1     ContainerCreating   0          16s
+nathan@nathan-Box:~/Microservice$ kubectl get pod
+NAME   READY   STATUS    RESTARTS   AGE
+api    1/1     Running   0          7m57s
+
