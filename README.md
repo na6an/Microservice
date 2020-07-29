@@ -40,3 +40,28 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Docker Configuration  
+#### Make Lint on Dockerfile
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/make_lint.png">  
+
+#### run_docker.sh & make_prediction.sh
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/run_docker.png">  
+
+#### upload_docker.sh
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/upload_docker.png">  
+Able to confirm docker image upload from docker hub  
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/docker_hub.png">  
+  
+### Kubernetes Configuration
+#### kubectl
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/kubectl.png">  
+  
+#### run_kubernetes.sh
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/run_kub.png">  
+  
+#### make_prediction.sh
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/make_pred.png">  
+
+### CircleCI Build Result
+  <img src="https://github.com/na6an/Microservice/tree/master/pic/circleci_build.png">  
